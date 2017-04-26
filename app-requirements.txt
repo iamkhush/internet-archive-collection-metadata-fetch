@@ -1,0 +1,7 @@
+Build a page to fetch details from https://archive.org/metamgr.php?&w_mediatype=web&w_collection=youtubecrawl*&w_publicdate=%3E2017-02-01%20AND%20%3C2017-02-28&mode=more&output_format=json
+
+1) give users option to select from collections , start and end date
+2) fetch json
+
+
+
