@@ -134,7 +134,7 @@ class App extends Component {
             <div className="form-group">
               <div className="col-sm-offset-2 col-sm-6">
                 <button type="submit" className={this.state.fetching ? 'btn btn-primary disabled': 'btn btn-primary'} onClick={this.fetchDataHandler}>
-                {this.state.fetching? 'Now' :'Start'} Fetching <i className={this.state.fetching ? 'fa fa-spinner': 'fa fa-spinner hide'} aria-hidden="true"></i>
+                {this.state.fetching? 'Now' :'Start'} Fetching <i className={this.state.fetching ? 'fa fa-spinner fa-spin': 'fa fa-spinner hide'} aria-hidden="true"></i>
                 </button>
               </div>
             </div>
