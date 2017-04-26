@@ -41,6 +41,9 @@ def fetchdata():
             for row in data['rows']:
                 imgcount += row[0] or 0
                 size += row[1] or 0
+
+        imgcount = '{:0,}'.format(imgcount)
+        size = '{:0,}'.format(size)
         result[datetime.strftime(inittime + timedelta(days=counter), '%Y-%m-%d')] = [imgcount, size]
         counter += 1
     return json.dumps(result)
